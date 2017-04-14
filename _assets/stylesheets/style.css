@@ -1,0 +1,11 @@
+/*Content*/
+div.content div.hello {
+  margin: 20px;
+  text-align: center;
+}
+div.content div.info {
+  margin: 20px;
+}
+div.content div.info p {
+  margin: 15px 0;
+}

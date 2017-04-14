@@ -1,0 +1,34 @@
+div.contacts, div.thankyou, div.error {
+  margin: 20px;
+}
+div.contacts p, div.thankyou p, div.error p {
+  margin: 15px;
+}
+div.contacts h3 {
+  text-align: center;
+  font-weight: normal;
+  margin: 10px;
+}
+span.kyivstar, span.life, span.mail {
+  margin: auto;
+  display: table;
+}
+p.form {
+  text-align: center;
+}
+textarea {
+  width: 30%;
+  height: 100px;
+  resize: vertical;
+}
+
+@media screen and (max-width: 800px) {
+  textarea{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 530px) {
+  textarea{
+    width: 80%;
+  }
+}

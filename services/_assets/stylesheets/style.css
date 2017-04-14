@@ -1,0 +1,16 @@
+div.content div.services {
+  margin: 20px;
+}
+div.content div.services li.services1 {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  div.content div.services ul {
+    padding-left: 20px;
+  }
+  div.content div.services ul li {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
