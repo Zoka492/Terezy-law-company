@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext');
 
+@font-face {
+  font-family: 'sflight';
+  src: url('../fonts/sflight.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   padding: 0;
   background: #eee;
-  font: 17px/22px 'Open Sans';
+  font: 17px/22px 'sflight';
   color: #555555;
   overflow-y: scroll;
 }
